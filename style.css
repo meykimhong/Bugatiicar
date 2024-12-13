@@ -1,0 +1,50 @@
+
+body {background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.menu ul li .icon {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #00bcd4;
+}
+.Container{
+   margin-top: 40px;
+   text-align: center;
+}
+.Container img{
+width: 400px;
+height: 400px;
+margin: 10px;
+}
+.img:hover > :not(:hover){
+    opacity: 0.5;
+}
